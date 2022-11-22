@@ -16,12 +16,12 @@
     <section class="banner">
       <div class="container banner__container">
         <picture class="banner__picture">
-          <source
+            <source
             srcset="
-            ./images/main/banner1-mob.jpg    1x,
-              ./images/main/banner1-mob-2x.jpg 2x
+            ./images/main/banner1.jpg    1x,
+              ./images/main/banner1-2x.jpg 2x
             "
-            media="(max-width: 767px)"
+            media="(min-width: 1280px)"
           />
           <source
             srcset="
@@ -32,10 +32,10 @@
           />
           <source
             srcset="
-            ./images/main/banner1.jpg    1x,
-              ./images/main/banner1-2x.jpg 2x
+            ./images/main/banner1-mob.jpg    1x,
+              ./images/main/banner1-mob-2x.jpg 2x
             "
-            media="(min-width: 1280px)"
+            media="(max-width: 767px)"
           />
           <img
             srcset="
@@ -45,6 +45,7 @@
             class="banner__photo"
             src="./images/main/banner1.jpg"
             alt="device"
+            width="100%"
           />
         </picture>
         <h2 class="banner__title">
@@ -93,6 +94,20 @@
             <li class="sale__item">
               <a href="">
                 <picture>
+                    <source
+                    srcset="
+                    ./images/main/img1.jpg    1x,
+                    ./images/main/img1-2x.jpg 2x
+                    "
+                    media="(min-width: 1280px)"
+                  />
+                  <source
+                  srcset="
+                  ./images/main/img1-tab.jpg    1x,
+                  ./images/main/img1-tab-2x.jpg 2x
+                  "
+                  media="(min-width: 768px)"
+                />
                   <source
                     class="sale__picture"
                     srcset="
@@ -100,20 +115,6 @@
                     ./images/main/img1-mob-2x.jpg 2x
                     "
                     media="(max-width: 767px)"
-                  />
-                  <source
-                    srcset="
-                    ./images/main/img1-tab.jpg    1x,
-                    ./images/main/img1-tab-2x.jpg 2x
-                    "
-                    media="(min-width: 768px)"
-                  />
-                  <source
-                    srcset="
-                    ./images/main/img1.jpg    1x,
-                    ./images/main/img1-2x.jpg 2x
-                    "
-                    media="(min-width: 1280px)"
                   />
                   <img
                     srcset="
@@ -135,28 +136,28 @@
               </div>
             </li>
             <li class="sale__item">
-              <picture>
-                <source
-                  class="sale__picture"
-                  srcset="
-                  ./images/main/img2-mob.jpg    1x,
-                  ./images/main/img2-mob-2x.jpg 2x
-                  "
-                  media="(max-width: 767px)"
-                />
-                <source
-                  srcset="
-                    ./images/main/img2-tab.jpg    1x,
-                    ./images/main/img2-tab-2x.jpg 2x
-                  "
-                  media="(min-width: 768px)"
-                />
+              <picture>  
                 <source
                   srcset="
                     ./images/main/img2.jpg    1x,
                     ./images/main/img2-2x.jpg 2x
                   "
                   media="(min-width: 1280px)"
+                />
+                <source
+                srcset="
+                  ./images/main/img2-tab.jpg    1x,
+                  ./images/main/img2-tab-2x.jpg 2x
+                "
+                media="(min-width: 768px)"
+              />
+              <source
+                  class="sale__picture"
+                  srcset="
+                  ./images/main/img2-mob.jpg    1x,
+                  ./images/main/img2-mob-2x.jpg 2x
+                  "
+                  media="(max-width: 767px)"
                 />
                 <img
                   srcset="
@@ -180,6 +181,20 @@
             </li>
             <li class="sale__item">
               <picture>
+              <source
+                  srcset="
+                    ./images/main/img3.jpg    1x,
+                    ./images/main/img3-2x.jpg 2x
+                  "
+                  media="(min-width: 1280px)"
+                />
+                <source
+                srcset="
+                  ./images/main/img3-tab.jpg    1x,
+                  ./images/main/img3-tab-2x.jpg 2x
+                "
+                media="(min-width: 768px)"
+              />
                 <source
                   class="sale__picture"
                   srcset="
@@ -187,20 +202,6 @@
                     ./images/main/img3-mob-2x.jpg 2x
                   "
                   media="(max-width: 767px)"
-                />
-                <source
-                  srcset="
-                    ./images/main/img3-tab.jpg    1x,
-                    ./images/main/img3-tab-2x.jpg 2x
-                  "
-                  media="(min-width: 768px)"
-                />
-                <source
-                  srcset="
-                    ./images/main/img3.jpg    1x,
-                    ./images/main/img3-2x.jpg 2x
-                  "
-                  media="(min-width: 1280px)"
                 />
                 <img
                   srcset="
@@ -225,13 +226,12 @@
             <li class="sale__item">
               <picture>
                 <source
-                  class="sale__picture"
-                  srcset="
-                    ./images/main/img4-mob.jpg    1x,
-                    ./images/main/img4-mob-2x.jpg 2x
-                  "
-                  media="(max-width: 767px)"
-                />
+                srcset="
+                ./images/main/img4.jpg    1x,
+                ./images/main/img4-2x.jpg 2x
+                "
+                media="(min-width: 1280px)"
+              />
                 <source
                   srcset="
                     ./images/main/img4-tab.jpg    1x,
@@ -240,12 +240,13 @@
                   media="(min-width: 768px)"
                 />
                 <source
-                  srcset="
-                  ./images/main/img4.jpg    1x,
-                  ./images/main/img4-2x.jpg 2x
-                  "
-                  media="(min-width: 1280px)"
-                />
+                class="sale__picture"
+                srcset="
+                  ./images/main/img4-mob.jpg    1x,
+                  ./images/main/img4-mob-2x.jpg 2x
+                "
+                media="(max-width: 767px)"
+              />              
                 <img
                   srcset="
                     ./images/main/img4.jpg    1x,
@@ -271,19 +272,19 @@
             <li class="sale__item">
               <a href="">
                 <picture>
+                    <source
+                    srcset="
+                      ./images/main/img5.jpg    1x,
+                      ./images/main/img5-2x.jpg 2x
+                    "
+                    media="(min-width: 1280px)"
+                  />
                   <source
                     srcset="
                       ./images/main/img5-tab.jpg    1x,
                       ./images/main/img5-tab-2x.jpg 2x
                     "
                     media="(min-width: 768px)"
-                  />
-                  <source
-                    srcset="
-                      ./images/main/img5.jpg    1x,
-                      ./images/main/img5-2x.jpg 2x
-                    "
-                    media="(min-width: 1280px)"
                   />
                   <img
                     srcset="
@@ -309,18 +310,18 @@
             <li class="sale__item">
               <picture>
                 <source
+                srcset="
+                   ./images/main/img6.jpg    1x,
+                   ./images/main/img6-2x.jpg 2x
+                "
+                media="(min-width: 1280px)"
+              />
+                <source
                   srcset="
                      ./images/main/img6-tab.jpg    1x,
                      ./images/main/img6-tab-2x.jpg 2x
                   "
                   media="(min-width: 768px)"
-                />
-                <source
-                  srcset="
-                     ./images/main/img6.jpg    1x,
-                     ./images/main/img6-2x.jpg 2x
-                  "
-                  media="(min-width: 1280px)"
                 />
                 <img
                   srcset="
@@ -345,20 +346,20 @@
             <li class="sale__item">
               <picture>
                 <source
+                srcset="
+                   ./images/main/img7.jpg    1x,
+                   ./images/main/img7-2x.jpg 2x
+                "
+                media="(min-width: 1280px)"
+              />
+                <source
                   srcset="
                      ./images/main/img7-tab.jpg    1x,
                      ./images/main/img7-tab-2x.jpg 2x
                   "
                   media="(min-width: 768px)"
                 />
-                <source
-                  srcset="
-                     ./images/main/img7.jpg    1x,
-                     ./images/main/img7-2x.jpg 2x
-                  "
-                  media="(min-width: 1280px)"
-                />
-                <img
+              <img
                   srcset="
                      ./images/main/img7.jpg    1x,
                      ./images/main/img7-2x.jpg 2x
@@ -381,18 +382,18 @@
             <li class="sale__item">
               <picture>
                 <source
+                srcset="
+                   ./images/main/img8.jpg    1x,
+                   ./images/main/img8-2x.jpg 2x
+                "
+                media="(min-width: 1280px)"
+              />
+                <source
                   srcset="
                      ./images/main/img8-tab.jpg    1x,
                      ./images/main/img8-tab-2x.jpg 2x
                   "
                   media="(min-width: 768px)"
-                />
-                <source
-                  srcset="
-                     ./images/main/img8.jpg    1x,
-                     ./images/main/img8-2x.jpg 2x
-                  "
-                  media="(min-width: 1280px)"
                 />
                 <img
                   srcset="

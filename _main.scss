@@ -24,7 +24,7 @@
         width: 100%;
         height: 497px;
         background-color: var(--main-background-color);
-        background-image: url(../images_comand/fon_hero.svg), url(../images_comand/mouse-mob.png), url(../images_comand/keyboard-mob.png), url(../images_comand/headphones-mob.png);
+        background-image: url(../images/main/fon_hero.svg), url(../images/main/mouse-mob.png), url(../images/main/keyboard-mob.png), url(./images/main/headphones-mob.png);
         background-size: cover, 99px, 88px, 186px;
         background-repeat: no-repeat;
         background-position: top -10px right -100px, top 58px left 16px, top 394px left 148px, top -48px left 140px;
@@ -36,13 +36,13 @@
         @media (min-device-pixel-ratio: 2),
         (min-resolution: 192dpi),
         (min-resolution: 2dppx) {
-            background-image: url(../images_comand/fon_hero.svg), url(../images_comand/mouse-mob-2x.png), url(../images_comand/keyboard-mob-2x.png), url(../images_comand/headphones-mob-2x.png);
+            background-image: url(../images/main/fon_hero.svg), url(../images/main/mouse-mob-2x.png), url(../images/main/keyboard-mob-2x.png), url(../images/main/headphones-mob-2x.png);
         }
     
         @media screen and (min-width: 768px) {
             width: 100%;
             height: 724px;
-            background-image: url(../images_comand/fon_hero.svg), url(../images_comand/mouse-tab.png), url(../images_comand/keyboard-tab.png), url(../images_comand/headphones-tab.png);
+            background-image: url(../images/main/fon_hero.svg), url(../images/main/mouse-tab.png), url(../images/main/keyboard-tab.png), url(../images/main/headphones-tab.png);
             background-size: cover, 165px, 143px, 223px;
             background-repeat: no-repeat;
             background-position: top -50px right -50px, top 49px left 430px, top 479px left 421px, top 226px left 530px;
@@ -50,12 +50,12 @@
             @media (min-device-pixel-ratio: 2),
             (min-resolution: 192dpi),
             (min-resolution: 2dppx) {
-             background-image: url(../images_comand/fon_hero.svg), url(../images_comand/mouse-tab-2x.png), url(../images_comand/keyboard-tab-2x.png), url(../images_comand/headphones-tab-2x.png);
+             background-image: url(../images/main/fon_hero.svg), url(../images/main/mouse-tab-2x.png), url(../images/main/keyboard-tab-2x.png), url(../images/main/headphones-tab-2x.png);
             }
         }
     
         @media screen and (min-width: 1280px) {
-            background-image:url(/images_comand/fon_hero.svg), url(../images_comand/mouse.png), url(../images_comand/keyboard.png), url(../images_comand/headphones.png);
+            background-image:url(../images/main/fon_hero.svg), url(../images/main/mouse.png), url(../images/main/keyboard.png), url(../images/main/headphones.png);
             background-size: cover, 220px, 230px, 335px;
             background-repeat: no-repeat;
             background-position: top -150px right, top 69px left 585px, top 430px left 578px, top 154px left 823px;
@@ -63,7 +63,7 @@
             @media (min-device-pixel-ratio: 2),
             (min-resolution: 192dpi),
             (min-resolution: 2dppx) {
-                background-image: url(../images_comand/fon_hero.svg), url(../images_comand/mouse-2x.png), url(../images_comand/keyboard-2x.png), url(../images_comand/headphones-2x.png);
+                background-image: url(../images/main/fon_hero.svg), url(../images/main/mouse-2x.png), url(../images/main/keyboard-2x.png), url(../images/main/headphones-2x.png);
             }
         }
     }
